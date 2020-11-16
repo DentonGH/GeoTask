@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorMoreVisibleWhite">#E4E4E4E4</color>
+    <color name="colorGrey">#AFAFAF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="colorLightBlack">#A91C1C1C</color>
+    <color name="colorLightWhite">#A9FFFFFF</color>
+    <color name="colorBlue">#4B8FF6</color>
+    <color name="colorYellow">#C8D6BF2C</color>
+    <color name="colorRed">#CBD11C1C</color>
+    <color name="loginSignupButtonColor">#8C880A1E</color>
+    <color name="blush_dark">#EB240B36</color>
+    <color name="blush_light">#151515</color>
+    <color name="editTextColor">#0FD3D3D3</color>
+    <color name="lightBlue">#19ABED</color>
+
+</resources>

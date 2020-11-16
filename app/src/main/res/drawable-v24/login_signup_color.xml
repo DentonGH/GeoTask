@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--- aynı sayfada aynı rengin derecesini değiştirerek geçiş yapabilirim aslında -->
+    <gradient android:startColor="@color/blush_dark"
+        android:endColor="@color/blush_light"
+        android:angle="270"/>
+</shape>

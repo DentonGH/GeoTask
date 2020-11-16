@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:id="@+id/custom_menu_adapter_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                android:tag="1"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/custom_menu_adapter_body"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/colorBlue"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/custom_menu_adapter_trash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_delete_24"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/custom_menu_adapter_second_layer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/custom_menu_adapter_button_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorYellow"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="5dp"
+                android:textAllCaps="false"
+                android:text="Detayı Göster"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/custom_menu_adapter_button_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorRed"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="5dp"
+                android:textAllCaps="false"
+                android:text="Konumu Göster"
+                android:textColor="@color/colorWhite"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:padding="2dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
